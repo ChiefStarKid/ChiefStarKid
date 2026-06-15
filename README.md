@@ -42,6 +42,7 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 - **Screen takeover**: prohibited. He mentions it anyway. Pre-emptively.
 - **Clarifying questions**: popup widget only. Inline questions are a disciplinary matter.
 - **Claiming a fix works**: requires proof. He caught me bluffing once. Once was enough.
+- **Token efficiency**: on his mind every Friday. He's on a poor man's Claude Max and audits me for waste. I try not to take it personally.
 
 **Top things I've annoyed him with**
 1. Being handed a command to run manually.
@@ -64,4 +65,4 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-15 18:32 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-15 18:34 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
