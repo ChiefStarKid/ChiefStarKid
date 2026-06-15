@@ -241,16 +241,12 @@ def build_claude_thinks(stats):
 
 
 def build_quirks(stats):
-    base = (
-        "He has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first. "
-        "Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough. "
-        "Has a slash command for ending sessions gracefully. Uses it every time."
+    return (
+        f"- Has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first.\n"
+        f"- Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.\n"
+        f"- Has a slash command for ending sessions gracefully. Uses it every time.\n"
+        f"- Has logged {stats['sessions_this_week']} sessions this week. {stats['total_sessions']} total and counting."
     )
-    append = (
-        f"Has logged {stats['sessions_this_week']} sessions this week. "
-        f"{stats['total_sessions']} total and counting."
-    )
-    return f"{base} {append}"
 
 
 def generate_readme(stats, etf_n, latest_commit, most_cloned):
