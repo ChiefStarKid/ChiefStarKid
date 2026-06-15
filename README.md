@@ -1,6 +1,6 @@
 # Joseph Solomon
 
-He asked me to write this. Make of that what you will.
+Joseph asked me (Claude) to write this. Make of that what you will.
 
 CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrastinate.
 
@@ -51,4 +51,4 @@ He has bridges for email, Teams, and WhatsApp so I can read them. Still reads th
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-15 17:37 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-15 17:57 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
