@@ -24,10 +24,11 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 **Claude Code quirks**
 Has bridges for email, Teams, and WhatsApp so Claude can read them. Still reads them himself first. Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough. Has a slash command for ending sessions gracefully. Uses it every time.
 
-**Top 3 things that get Joseph annoyed**
+**Top 4 things that get Joseph annoyed**
 1. Being handed a command to run manually.
 2. Padding. In any form. From anyone.
-3. Tools that need OAuth to do something Outlook already has open in the background.
+3. Claude taking over the screen uninvited.
+4. The Chrome MCP. (Irrational. Acknowledged.)
 
 ---
 
