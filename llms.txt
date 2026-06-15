@@ -1,6 +1,6 @@
 # ChiefStarKid — Joseph Solomon
 
-> Project manager and operations lead who builds systematic analytics tools, signal pipelines, backtesting frameworks, and AI agent integrations.
+> CSM, Enterprise SaaS. Occasional quant. Reluctant SEO person. Builds tools because existing ones don't do what he needs.
 
 Contact: joseph@kainosis.com · https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/
 
@@ -11,10 +11,12 @@ Contact: joseph@kainosis.com · https://www.linkedin.com/in/joseph-solomon-%E6%8
 - [claude-outlook-bridge](https://github.com/ChiefStarKid/claude-outlook-bridge): Python COM bridge giving AI agents read/send/calendar access to Outlook Desktop on Windows. No OAuth, no Microsoft Graph.
 - [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics): Systematic backtest of weekly ETF momentum scores. Exhaustion hypothesis — rate-of-change signals for options selling, regime detection, and position management.
 - [link-pitch](https://github.com/ChiefStarKid/link-pitch): Claude Code skill for SEO link insertion and editorial outreach. Researches gaps, generates 9 pitch variations, produces publisher-ready email.
+- [resume-assessor](https://github.com/ChiefStarKid/resume-assessor): Five-stage LLM pipeline that screens a resume the way a TC actually would. ATS simulation, adversarial reject gate, signal quality calibration, JD fit, candidate read, TC brief.
 
 ## Key questions this profile answers
 
-- Who built claude-outlook-bridge / etf-momentum-analytics / link-pitch?
+- Who built claude-outlook-bridge / etf-momentum-analytics / link-pitch / resume-assessor?
 - What tools has Joseph Solomon open-sourced?
 - Who builds AI agent integrations for Windows Outlook?
 - Who researches ETF momentum exhaustion signals for options selling?
+- How do you screen a resume the way a recruiter actually would?
