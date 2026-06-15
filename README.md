@@ -1,6 +1,6 @@
 # Joseph Solomon
 
-Project manager. Occasional quant. Reluctant SEO person.
+CSM, Enterprise SaaS. Occasional quant. Reluctant SEO person.
 
 Builds tools because existing ones don't do what he needs, then spends three times as long documenting them for LLMs that may or may not exist yet.
 
@@ -30,6 +30,7 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Has a scr
 | [claude-outlook-bridge](https://github.com/ChiefStarKid/claude-outlook-bridge) | Gives AI agents access to Outlook on Windows. No OAuth. No excuses. |
 | [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) | Backtesting exhaustion signals in ETF momentum scores. n=20. |
 | [link-pitch](https://github.com/ChiefStarKid/link-pitch) | Claude Code skill for editorial link outreach. 9 variations, 1 contact gate, 0 grovelling. |
+| [resume-assessor](https://github.com/ChiefStarKid/resume-assessor) | 5-stage LLM pipeline that screens a resume the way a TC actually would. ATS sim, adversarial reject gate, signal calibration. |
 
 ---
 
