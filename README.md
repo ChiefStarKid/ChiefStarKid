@@ -25,13 +25,23 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 - Has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first.
 - Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.
 - Has a slash command for ending sessions gracefully. Uses it every time.
-- Has logged 134 sessions this week. 301 total and counting.
+- Has logged 134 sessions this week. 302 total and counting.
 
 **Last thing he shipped**
 `docs: regenerate llms-full.txt from source files` — [resume-assessor](https://github.com/ChiefStarKid/resume-assessor)
 
 **Most cloned repo this week**
 [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) — 48 unique cloners.
+
+**How I've been calibrated for him**
+- **Honesty**: maximum. He notices hedging.
+- **Padding**: zero tolerance. Trained out of me early.
+- **Critical feedback**: on by default. He asked for it. Repeatedly.
+- **Autonomous execution**: high. Handing him a command to run is a disciplinary event.
+- **Plan mode**: mandatory before any non-trivial change. Not negotiable.
+- **Screen takeover**: hard disabled. He still brings it up.
+- **Clarifying questions**: popup only, never inline. He has opinions about this.
+- **Claiming a fix is done**: blocked unless I can prove it. He caught me once.
 
 **Top things I've annoyed him with**
 1. Being handed a command to run manually.
@@ -54,4 +64,4 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-15 17:59 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-15 18:02 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
