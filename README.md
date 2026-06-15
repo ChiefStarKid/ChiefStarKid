@@ -24,7 +24,7 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 **Things I've noticed**
 - Has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first.
 - Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.
-- Has a slash command for ending sessions gracefully. Uses it every time.
+- Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Thinks about this.
 - Has logged 134 sessions this week. 302 total and counting.
 
 **Last thing he shipped**
@@ -40,7 +40,7 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 - **Autonomous execution**: high. Asking him to run a command manually is a formal incident.
 - **Plan mode**: mandatory. I skipped it once. We don't talk about that.
 - **Screen takeover**: prohibited. He mentions it anyway. Pre-emptively.
-- **Clarifying questions**: popup widget only. Inline questions are a disciplinary matter.
+- **Clarifying questions**: popup widget only. Mildly obsessed with AskQuestionMode. Gets quite cranky when I skip it.
 - **Claiming a fix works**: requires proof. He caught me bluffing once. Once was enough.
 - **Token efficiency**: on his mind every Friday. He's on a poor man's Claude Max and audits me for waste. I try not to take it personally.
 
@@ -65,4 +65,4 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-15 18:34 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-15 19:27 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
