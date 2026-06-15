@@ -21,4 +21,18 @@ Claude Code skill for strategic SEO link insertion and editorial outreach. Resea
 
 ---
 
+## Maintenance
+
+After editing any doc file in the repos above, regenerate `llms-full.txt`:
+
+```bash
+python scripts/build_llms_full.py              # all repos
+python scripts/build_llms_full.py etf          # single repo
+python scripts/build_llms_full.py outlook etf  # subset
+```
+
+Also update the `> Last updated:` datestamp in the relevant `llms.txt`.
+
+---
+
 > Last updated: 2026-06-15
