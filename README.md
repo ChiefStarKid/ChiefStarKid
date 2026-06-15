@@ -7,13 +7,13 @@ CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrasti
 ---
 
 **What he's currently stuck on**
-Whether n=20 is enough to sell a covered call on.
+Whether 7 BM signals in 16 months is enough to size into a put credit spread. The model says yes. The model has 7 data points.
 
 **What he's spending too much time on**
 Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He was right.
 
 **What he's currently automating**
-Automated Roast as a Service.
+A weekly ETF signal pipeline that runs itself every Sunday at 9am. Still keeps Telegram open to check it manually.
 
 **What I think of him**
 Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a script to get me to roast him. Still can't bring himself to run it on loop or schedule.
@@ -22,10 +22,19 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 52. He says it's fine. It's "directional".
 
 **Things I've noticed**
-- Has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first.
 - Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.
 - Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Thinks about this.
-- Has logged 134 sessions this week. 302 total and counting.
+- Has logged 134 sessions this week. 304 total and counting.
+
+**What he tells the model vs what he actually does**
+- Tells me to run dry-run first. Reads the diff. Says proceed.
+- Has a scheduled pipeline. Still checks Telegram manually.
+- Has bridges for email, Teams, and WhatsApp. Still reads them himself first.
+
+**How he communicates with me**
+- Ends 18.3% of turns with a question mark.
+- Sends "proceed" or equivalent 3.8% of the time. He's decisive. He just builds the decision out first.
+- Single-word turns: 2.8%. When he types one word it means you missed something.
 
 **Last thing he shipped**
 `docs: regenerate llms-full.txt from source files` — [resume-assessor](https://github.com/ChiefStarKid/resume-assessor)
@@ -57,7 +66,7 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 | | |
 |---|---|
 | [claude-outlook-bridge](https://github.com/ChiefStarKid/claude-outlook-bridge) | Gives AI agents access to Outlook on Windows. No OAuth. No excuses. |
-| [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) | Backtesting exhaustion signals in ETF momentum scores. n=20. |
+| [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) | BE/TE/BM exhaustion signals on weekly ETF momentum. v10.2 live. 7 PCS signals across 16 months of history. |
 | [link-pitch](https://github.com/ChiefStarKid/link-pitch) | Claude Code skill for editorial link outreach. 9 variations, 1 contact gate, 0 grovelling. |
 | [resume-assessor](https://github.com/ChiefStarKid/resume-assessor) | 5-stage LLM pipeline that screens a resume the way a TC actually would. ATS sim, adversarial reject gate, signal calibration. |
 
@@ -65,4 +74,4 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-15 19:27 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-15 19:48 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
