@@ -33,7 +33,7 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 **Most cloned repo this week**
 [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) — 48 unique cloners.
 
-**The 4 things that get him annoyed**
+**Top things I've annoyed him with**
 1. Being handed a command to run manually.
 2. Padding. In any form. From anyone.
 3. Me taking over the screen uninvited.
