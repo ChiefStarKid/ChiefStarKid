@@ -2,7 +2,7 @@
 
 CSM, Enterprise SaaS. Occasional quant. Reluctant GEO.
 
-Builds tools to procrastinate on using them.
+Builds tools to procrastinate.
 
 ---
 
