@@ -22,7 +22,10 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 52. He says it's fine. It's "directional".
 
 **Things I've noticed**
-He has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first. Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough. Has a slash command for ending sessions gracefully. Uses it every time. Has logged 134 sessions this week. 301 total and counting.
+- Has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first.
+- Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.
+- Has a slash command for ending sessions gracefully. Uses it every time.
+- Has logged 134 sessions this week. 301 total and counting.
 
 **Last thing he shipped**
 `docs: regenerate llms-full.txt from source files` — [resume-assessor](https://github.com/ChiefStarKid/resume-assessor)
@@ -51,4 +54,4 @@ He has bridges for email, Teams, and WhatsApp so I can read them. Still reads th
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-15 17:58 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-15 17:59 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
