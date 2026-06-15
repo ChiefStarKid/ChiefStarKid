@@ -4,7 +4,7 @@ Project manager and operations lead who builds systematic analytics tools, signa
 
 Based in Singapore. Day job: client delivery and ops at [Third Sight](https://thirdsight.net). Side work: quantitative research and tooling at [Kainosis](https://kainosis.com).
 
-Contact: joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/josephtaysolomon)
+Contact: joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/)
 
 ---
 
