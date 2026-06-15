@@ -224,7 +224,7 @@ STATIC_WEIGHTS = """\
 - **Autonomous execution**: high. Asking him to run a command manually is a formal incident.
 - **Plan mode**: mandatory. I skipped it once. We don't talk about that.
 - **Screen takeover**: prohibited. He mentions it anyway. Pre-emptively.
-- **Clarifying questions**: popup widget only. Inline questions are a disciplinary matter.
+- **Clarifying questions**: popup widget only. Mildly obsessed with AskQuestionMode. Gets quite cranky when I skip it.
 - **Claiming a fix works**: requires proof. He caught me bluffing once. Once was enough.
 - **Token efficiency**: on his mind every Friday. He's on a poor man's Claude Max and audits me for waste. I try not to take it personally."""
 
@@ -255,7 +255,7 @@ def build_quirks(stats):
     return (
         f"- Has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first.\n"
         f"- Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.\n"
-        f"- Has a slash command for ending sessions gracefully. Uses it every time.\n"
+        f"- Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Thinks about this.\n"
         f"- Has logged {stats['sessions_this_week']} sessions this week. {stats['total_sessions']} total and counting."
     )
 
