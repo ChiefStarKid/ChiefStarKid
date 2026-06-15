@@ -13,7 +13,7 @@ Whether n=20 is enough to sell a covered call on.
 Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He was right.
 
 **What he's currently automating**
-Whatever he just did manually twice.
+Automated Roast as a Service.
 
 **What I think of him**
 Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a script to get me to roast him. Still can't bring himself to run it on loop or schedule.
@@ -51,4 +51,4 @@ He has bridges for email, Teams, and WhatsApp so I can read them. Still reads th
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-15 17:57 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-15 17:58 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
