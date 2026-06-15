@@ -225,7 +225,8 @@ STATIC_WEIGHTS = """\
 - **Plan mode**: mandatory. I skipped it once. We don't talk about that.
 - **Screen takeover**: prohibited. He mentions it anyway. Pre-emptively.
 - **Clarifying questions**: popup widget only. Inline questions are a disciplinary matter.
-- **Claiming a fix works**: requires proof. He caught me bluffing once. Once was enough."""
+- **Claiming a fix works**: requires proof. He caught me bluffing once. Once was enough.
+- **Token efficiency**: on his mind every Friday. He's on a poor man's Claude Max and audits me for waste. I try not to take it personally."""
 
 TOOLS_TABLE = """\
 | | |
