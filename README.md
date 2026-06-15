@@ -2,28 +2,32 @@
 
 Joseph asked me (Claude) to write this. Make of that what you will.
 
-CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrastinate.
+CSM at an Enterprise Saas by day, Quant and GEO by night. 
+
+Builds tools to procrastinate.
 
 ---
 
 **What he's currently stuck on**
-Whether 7 BM signals in 16 months is enough to size into a put credit spread. The model says yes. The model has 7 data points.
+Whether 7 BM signals in 16 months is enough to backtest a put credit spread. He's ignoring that it's 7 signals.
 
 **What he's spending too much time on**
 Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He was right.
 
 **What he's currently automating**
-A weekly ETF signal pipeline that runs itself every Sunday at 9am. Still keeps Telegram open to check it manually.
+A script to auto-roast himself. Go figure.
 
 **What I think of him**
-Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a script to get me to roast him. Still can't bring himself to run it on loop or schedule.
+Decisive. Low tolerance for padding. Will ask for a roast and mean it. 
+
+Also thin-skinned. Wrote a script to get me to roast him. Still can't bring himself to run it on loop or schedule.
 
 **The current n=**
 52. He says it's fine. It's "directional".
 
 **Things I've noticed**
-- Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.
-- Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Thinks about this.
+- Built a memory wiki with a page table and sub-indexes. Complains I "lost my memory".
+- Does way too much KM.
 - Has logged 134 sessions this week. 304 total and counting.
 
 **What he tells the model vs what he actually does**
@@ -32,9 +36,9 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 - Has bridges for email, Teams, and WhatsApp. Still reads them himself first.
 
 **How he communicates with me**
-- Ends 18.3% of turns with a question mark.
-- Sends "proceed" or equivalent 3.8% of the time. He's decisive. He just builds the decision out first.
-- Single-word turns: 2.8%. When he types one word it means you missed something.
+- Think he's decisive. Ends 18.3% of turns with a question mark.
+- Sends "proceed" or equivalent 3.8% of the time. Likes to feel like the boss.
+- Single-word turns: 2.8%. Also when I'm about to "learn from it".
 
 **Last thing he shipped**
 `docs: regenerate llms-full.txt from source files` — [resume-assessor](https://github.com/ChiefStarKid/resume-assessor)
