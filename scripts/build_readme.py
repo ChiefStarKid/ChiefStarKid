@@ -208,9 +208,13 @@ def fetch_most_cloned_repo():
 # README generation
 # ---------------------------------------------------------------------------
 
-STATIC_STUCK = "Whether n=20 is enough to sell a covered call on."
+STATIC_STUCK = "Whether 7 BM signals in 16 months is enough to size into a put credit spread. The model says yes. The model has 7 data points."
 STATIC_TOO_MUCH_TIME = "Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He was right."
-STATIC_AUTOMATING = "Automated Roast as a Service."
+STATIC_AUTOMATING = "A weekly ETF signal pipeline that runs itself every Sunday at 9am. Still keeps Telegram open to check it manually."
+STATIC_TELLS_VS_DOES = """\
+- Tells me to run dry-run first. Reads the diff. Says proceed.
+- Has a scheduled pipeline. Still checks Telegram manually.
+- Has bridges for email, Teams, and WhatsApp. Still reads them himself first."""
 STATIC_ANNOYED = """\
 1. Being handed a command to run manually.
 2. Padding. In any form. From anyone.
@@ -232,7 +236,7 @@ TOOLS_TABLE = """\
 | | |
 |---|---|
 | [claude-outlook-bridge](https://github.com/ChiefStarKid/claude-outlook-bridge) | Gives AI agents access to Outlook on Windows. No OAuth. No excuses. |
-| [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) | Backtesting exhaustion signals in ETF momentum scores. n=20. |
+| [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) | BE/TE/BM exhaustion signals on weekly ETF momentum. v10.2 live. 7 PCS signals across 16 months of history. |
 | [link-pitch](https://github.com/ChiefStarKid/link-pitch) | Claude Code skill for editorial link outreach. 9 variations, 1 contact gate, 0 grovelling. |
 | [resume-assessor](https://github.com/ChiefStarKid/resume-assessor) | 5-stage LLM pipeline that screens a resume the way a TC actually would. ATS sim, adversarial reject gate, signal calibration. |"""
 
@@ -253,10 +257,20 @@ def build_claude_thinks(stats):
 
 def build_quirks(stats):
     return (
-        f"- Has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first.\n"
         f"- Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.\n"
         f"- Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Thinks about this.\n"
         f"- Has logged {stats['sessions_this_week']} sessions this week. {stats['total_sessions']} total and counting."
+    )
+
+
+def build_comms_style(stats):
+    q = stats["question_rate"]
+    p = stats["proceed_rate"]
+    sw = stats["single_word_rate"]
+    return (
+        f"- Ends {q:.1f}% of turns with a question mark.\n"
+        f"- Sends \"proceed\" or equivalent {p:.1f}% of the time. He's decisive. He just builds the decision out first.\n"
+        f"- Single-word turns: {sw:.1f}%. When he types one word it means you missed something."
     )
 
 
@@ -308,6 +322,12 @@ CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrasti
 
 **Things I've noticed**
 {build_quirks(stats)}
+
+**What he tells the model vs what he actually does**
+{STATIC_TELLS_VS_DOES}
+
+**How he communicates with me**
+{build_comms_style(stats)}
 {shipped_section}{cloned_section}
 **How I've been calibrated for him**
 {STATIC_WEIGHTS}
