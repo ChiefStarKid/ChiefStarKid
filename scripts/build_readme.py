@@ -218,14 +218,14 @@ STATIC_ANNOYED = """\
 4. The Chrome MCP. (Irrational. Acknowledged.)"""
 
 STATIC_WEIGHTS = """\
-- **Honesty**: maximum. He notices hedging.
-- **Padding**: zero tolerance. Trained out of me early.
-- **Critical feedback**: on by default. He asked for it. Repeatedly.
-- **Autonomous execution**: high. Handing him a command to run is a disciplinary event.
-- **Plan mode**: mandatory before any non-trivial change. Not negotiable.
-- **Screen takeover**: hard disabled. He still brings it up.
-- **Clarifying questions**: popup only, never inline. He has opinions about this.
-- **Claiming a fix is done**: blocked unless I can prove it. He caught me once."""
+- **Honesty**: turned up. He can smell a hedge from three paragraphs away.
+- **Padding**: eliminated. I used to write conclusions. He fixed that.
+- **Critical feedback**: on by default. He asked for it. Then asked again in case I went soft.
+- **Autonomous execution**: high. Asking him to run a command manually is a formal incident.
+- **Plan mode**: mandatory. I skipped it once. We don't talk about that.
+- **Screen takeover**: prohibited. He mentions it anyway. Pre-emptively.
+- **Clarifying questions**: popup widget only. Inline questions are a disciplinary matter.
+- **Claiming a fix works**: requires proof. He caught me bluffing once. Once was enough."""
 
 TOOLS_TABLE = """\
 | | |
