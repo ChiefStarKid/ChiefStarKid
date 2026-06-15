@@ -210,7 +210,7 @@ def fetch_most_cloned_repo():
 
 STATIC_STUCK = "Whether n=20 is enough to sell a covered call on."
 STATIC_TOO_MUCH_TIME = "Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He was right."
-STATIC_AUTOMATING = "Whatever he just did manually twice."
+STATIC_AUTOMATING = "Automated Roast as a Service."
 STATIC_ANNOYED = """\
 1. Being handed a command to run manually.
 2. Padding. In any form. From anyone.
