@@ -8,6 +8,8 @@ Usage:
   python build_llms_full.py etf                     # etf-momentum-analytics only
   python build_llms_full.py link-pitch              # link-pitch only
   python build_llms_full.py outlook etf link-pitch  # multiple
+
+  python build_llms_full.py resume                   # resume-assessor only
 """
 
 import subprocess, sys, base64, json
@@ -58,6 +60,16 @@ REPOS = {
             "styles/outreach.md",
         ],
     },
+    "resume": {
+        "full_name": "ChiefStarKid/resume-assessor",
+        "branch": "master",
+        "canonical": "https://github.com/ChiefStarKid/resume-assessor",
+        "title": "resume-assessor — full documentation",
+        "files": [
+            "README.md",
+            "assessor_prompt.md",
+        ],
+    },
 }
 
 ALIASES = {
@@ -67,6 +79,8 @@ ALIASES = {
     "etf-momentum-analytics": "etf",
     "link-pitch": "link-pitch",
     "linkpitch": "link-pitch",
+    "resume": "resume",
+    "resume-assessor": "resume",
 }
 
 
