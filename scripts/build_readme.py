@@ -278,7 +278,7 @@ def generate_readme(stats, etf_n, latest_commit, most_cloned):
     readme = f"""\
 # Joseph Solomon
 
-He asked me to write this. Make of that what you will.
+Joseph asked me (Claude) to write this. Make of that what you will.
 
 CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrastinate.
 
