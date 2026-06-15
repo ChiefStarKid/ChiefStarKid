@@ -217,6 +217,16 @@ STATIC_ANNOYED = """\
 3. Me taking over the screen uninvited.
 4. The Chrome MCP. (Irrational. Acknowledged.)"""
 
+STATIC_WEIGHTS = """\
+- **Honesty**: maximum. He notices hedging.
+- **Padding**: zero tolerance. Trained out of me early.
+- **Critical feedback**: on by default. He asked for it. Repeatedly.
+- **Autonomous execution**: high. Handing him a command to run is a disciplinary event.
+- **Plan mode**: mandatory before any non-trivial change. Not negotiable.
+- **Screen takeover**: hard disabled. He still brings it up.
+- **Clarifying questions**: popup only, never inline. He has opinions about this.
+- **Claiming a fix is done**: blocked unless I can prove it. He caught me once."""
+
 TOOLS_TABLE = """\
 | | |
 |---|---|
@@ -298,6 +308,9 @@ CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrasti
 **Things I've noticed**
 {build_quirks(stats)}
 {shipped_section}{cloned_section}
+**How I've been calibrated for him**
+{STATIC_WEIGHTS}
+
 **Top things I've annoyed him with**
 {STATIC_ANNOYED}
 
