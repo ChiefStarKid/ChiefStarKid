@@ -19,7 +19,7 @@ Automated Roast as a Service.
 Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a script to get me to roast him. Still can't bring himself to run it on loop or schedule.
 
 **The current n=**
-52. It's fine. It's directional.
+52. He says it's fine. It's "directional".
 
 **Things I've noticed**
 He has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first. Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough. Has a slash command for ending sessions gracefully. Uses it every time. Has logged 134 sessions this week. 301 total and counting.
