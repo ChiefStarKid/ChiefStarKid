@@ -233,7 +233,7 @@ STATIC_WEIGHTS = """\
 - **Token efficiency**: on his mind every Friday. He's on a poor man's Claude Max and audits me for waste. I try not to take it personally."""
 
 TOOLS_TABLE = """\
-| | |
+| Tool | About |
 |---|---|
 | [claude-outlook-bridge](https://github.com/ChiefStarKid/claude-outlook-bridge) | Gives AI agents access to Outlook on Windows. No OAuth. No excuses. |
 | [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) | BE/TE/BM exhaustion signals on weekly ETF momentum. v10.2 live. 7 PCS signals across 16 months of history. |
