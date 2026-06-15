@@ -254,7 +254,7 @@ def build_quirks(stats):
 
 
 def generate_readme(stats, etf_n, latest_commit, most_cloned):
-    n_display = f"{etf_n}. It's fine. It's directional." if etf_n else "Unknown. Still directional."
+    n_display = f"{etf_n}. He says it's fine. It's \"directional\"." if etf_n else "Unknown. Still \"directional\"."
 
     shipped_section = ""
     if latest_commit:
