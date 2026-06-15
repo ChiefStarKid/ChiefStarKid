@@ -13,7 +13,7 @@ Whether n=20 is enough to sell a covered call on.
 Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He was right.
 
 **What I'm currently automating**
-Whatever I just did manually twice.
+Automated Roast as a Service.
 
 **What Claude thinks of me**
 Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a script to roast himself on command. Still can't bear to run it on loop or schedule.
