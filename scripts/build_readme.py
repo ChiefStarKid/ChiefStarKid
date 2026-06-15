@@ -210,11 +210,11 @@ def fetch_most_cloned_repo():
 
 STATIC_STUCK = "Whether n=20 is enough to sell a covered call on."
 STATIC_TOO_MUCH_TIME = "Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He was right."
-STATIC_AUTOMATING = "Whatever I just did manually twice."
+STATIC_AUTOMATING = "Whatever he just did manually twice."
 STATIC_ANNOYED = """\
 1. Being handed a command to run manually.
 2. Padding. In any form. From anyone.
-3. Claude taking over the screen uninvited.
+3. Me taking over the screen uninvited.
 4. The Chrome MCP. (Irrational. Acknowledged.)"""
 
 TOOLS_TABLE = """\
@@ -229,7 +229,7 @@ TOOLS_TABLE = """\
 def build_claude_thinks(stats):
     lines = [
         "Decisive. Low tolerance for padding. Will ask for a roast and mean it. "
-        "Wrote a script to roast himself on command. Still can't bear to run it on loop or schedule."
+        "Wrote a script to get me to roast him. Still can't bring himself to run it on loop or schedule."
     ]
     if stats["proceed_rate"] > 40:
         lines.append(f"Says 'proceed' {stats['proceed_rate']:.0f}% of the time.")
@@ -242,7 +242,7 @@ def build_claude_thinks(stats):
 
 def build_quirks(stats):
     base = (
-        "Has bridges for email, Teams, and WhatsApp so Claude can read them. Still reads them himself first. "
+        "He has bridges for email, Teams, and WhatsApp so I can read them. Still reads them himself first. "
         "Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough. "
         "Has a slash command for ending sessions gracefully. Uses it every time."
     )
@@ -260,7 +260,7 @@ def generate_readme(stats, etf_n, latest_commit, most_cloned):
     if latest_commit:
         repo, msg, _ = latest_commit
         shipped_section = (
-            f"\n**Last thing I shipped**\n"
+            f"\n**Last thing he shipped**\n"
             f"`{msg}` — [{repo}](https://github.com/{OWNER}/{repo})\n"
         )
 
@@ -278,31 +278,31 @@ def generate_readme(stats, etf_n, latest_commit, most_cloned):
     readme = f"""\
 # Joseph Solomon
 
-CSM, Enterprise SaaS. Occasional quant. Reluctant GEO.
+He asked me to write this. Make of that what you will.
 
-Builds tools to procrastinate.
+CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrastinate.
 
 ---
 
-**What I'm currently stuck on**
+**What he's currently stuck on**
 {STATIC_STUCK}
 
-**What I'm spending too much time on**
+**What he's spending too much time on**
 {STATIC_TOO_MUCH_TIME}
 
-**What I'm currently automating**
+**What he's currently automating**
 {STATIC_AUTOMATING}
 
-**What Claude thinks of me**
+**What I think of him**
 {build_claude_thinks(stats)}
 
 **The current n=**
 {n_display}
 
-**Claude Code quirks**
+**Things I've noticed**
 {build_quirks(stats)}
 {shipped_section}{cloned_section}
-**Top 4 things that get Joseph annoyed**
+**The 4 things that get him annoyed**
 {STATIC_ANNOYED}
 
 ---
