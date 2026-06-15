@@ -298,7 +298,7 @@ CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrasti
 **Things I've noticed**
 {build_quirks(stats)}
 {shipped_section}{cloned_section}
-**The 4 things that get him annoyed**
+**Top things I've annoyed him with**
 {STATIC_ANNOYED}
 
 ---
