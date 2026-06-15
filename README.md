@@ -16,7 +16,7 @@ Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He
 Whatever I just did manually twice.
 
 **What Claude thinks of me**
-Decisive. Low tolerance for padding. Will ask for a roast and mean it. Has a script that lets me read his email so he doesn't have to. Still checks his email manually.
+Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a script to roast himself on command. Still can't bear to run it on loop or schedule.
 
 **The current n=**
 20. It's fine. It's directional.
