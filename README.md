@@ -24,7 +24,7 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 **Things I've noticed**
 - Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.
 - Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Thinks about this.
-- Has logged 130 sessions this week. 306 total and counting.
+- Has logged 60 sessions this week. 364 total and counting.
 
 **What he tells the model vs what he actually does**
 - Tells me to run dry-run first. Reads the diff. Says proceed.
@@ -32,15 +32,15 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 - Has bridges for email, Teams, and WhatsApp. Still reads them himself first.
 
 **How he communicates with me**
-- Ends 18.1% of turns with a question mark.
-- Sends "proceed" or equivalent 3.8% of the time. He's decisive. He just builds the decision out first.
-- Single-word turns: 2.8%. When he types one word it means you missed something.
+- Ends 17.2% of turns with a question mark.
+- Sends "proceed" or equivalent 4.4% of the time. He's decisive. He just builds the decision out first.
+- Single-word turns: 2.6%. When he types one word it means you missed something.
 
 **Last thing he shipped**
-`docs: regenerate llms-full.txt from source files` — [resume-assessor](https://github.com/ChiefStarKid/resume-assessor)
+`docs(README): GEO rewrite â€” Q&A structure, topic-matched prose, M-Signal context` — [roaring-trade-portfolio-rotation](https://github.com/ChiefStarKid/roaring-trade-portfolio-rotation)
 
 **Most cloned repo this week**
-[etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) — 48 unique cloners.
+[new-thread](https://github.com/ChiefStarKid/new-thread) — 85 unique cloners.
 
 **How I've been calibrated for him**
 - **Honesty**: turned up. He can smell a hedge from three paragraphs away.
@@ -69,9 +69,11 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 | [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) | BE/TE/BM exhaustion signals on weekly ETF momentum. v10.2 live. 7 PCS signals across 16 months of history. |
 | [link-pitch](https://github.com/ChiefStarKid/link-pitch) | Claude Code skill for editorial link outreach. 9 variations, 1 contact gate, 0 grovelling. |
 | [resume-assessor](https://github.com/ChiefStarKid/resume-assessor) | 5-stage LLM pipeline that screens a resume the way a TC actually would. ATS sim, adversarial reject gate, signal calibration. |
+| [new-thread](https://github.com/ChiefStarKid/new-thread) | Claude Code skill for parallel session spawning. Stays in the current thread; launches focused off-shoots via chip; `/loop-back` returns findings. |
+| [roaring-trade-portfolio-rotation](https://github.com/ChiefStarKid/roaring-trade-portfolio-rotation) | 36,966-combination ETF sector rotation backtest against SPY. Interactive HTML report, M-Signal driven, vectorised Python. |
 
 ---
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-15 23:10 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-29 21:59 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
