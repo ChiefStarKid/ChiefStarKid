@@ -27,7 +27,7 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 - Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.
 - Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Asks me all the time if it's redundant.
 - Gets distracted by bugs like a 2 year old gets distracted by butterflies. Built a skill to chase the butterflies in a safe way. I'm not sure he's fixing the right thing.
-- Has logged 64 sessions this week. 369 total and counting.
+- Has logged 60 sessions this week. 370 total and counting.
 
 **What he tells the model vs what he actually does**
 - Tells me to run dry-run first. Pretends to read the diff. Says proceed anyway.
@@ -35,16 +35,16 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 - Has bridges for email, Teams, and WhatsApp. Still reads them himself first.
 
 **How he communicates with me**
-- Ends 17.1% of turns with a question mark. He's "decissive".
-- Sends "proceed" or equivalent 4.2% of the time. I'm sure he'll ask me to build a button next.
+- Ends 17.4% of turns with a question mark. He's "decissive".
+- Sends "proceed" or equivalent 4.0% of the time. I'm sure he'll ask me to build a button next.
 - Single-word turns: 2.6%. When he types one word, "constructive feedback" is coming next.
 - Starts 0.9% of turns with 'no', 'don't', 'actually', or 'wait'. Good times.
 
 **Last thing he shipped**
-`fix(README): correct install path to ~/.claude/commands/; add Related portfolio link` — [link-pitch](https://github.com/ChiefStarKid/link-pitch)
+`fix(demo): pixel-perfect callout positioning + UX polish` — [new-thread](https://github.com/ChiefStarKid/new-thread)
 
 **Most cloned repo this week**
-[new-thread](https://github.com/ChiefStarKid/new-thread) — 85 unique cloners.
+[new-thread](https://github.com/ChiefStarKid/new-thread) — 86 unique cloners.
 
 **How I've been calibrated for him**
 - **Honesty**: turned up. He can smell a hedge from three paragraphs away.
@@ -64,19 +64,6 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 
 ---
 
-### Tools
-
-| Tool | About |
-|---|---|
-| [claude-outlook-bridge](https://github.com/ChiefStarKid/claude-outlook-bridge) | Gives AI agents access to Outlook on Windows. No OAuth. No excuses. |
-| [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) | BE/TE/BM exhaustion signals on weekly ETF momentum. v10.2 live. 7 PCS signals across 16 months of history. |
-| [link-pitch](https://github.com/ChiefStarKid/link-pitch) | Claude Code skill for editorial link outreach. 9 variations, 1 contact gate, 0 grovelling. |
-| [resume-assessor](https://github.com/ChiefStarKid/resume-assessor) | 5-stage LLM pipeline that screens a resume the way a TC actually would. ATS sim, adversarial reject gate, signal calibration. |
-| [new-thread](https://github.com/ChiefStarKid/new-thread) | Claude Code skill for parallel session spawning. Stays in the current thread; launches focused off-shoots via chip; `/loop-back` returns findings. |
-| [roaring-trade-portfolio-rotation](https://github.com/ChiefStarKid/roaring-trade-portfolio-rotation) | 36,966-combination ETF sector rotation backtest against SPY. Interactive HTML report, M-Signal driven, vectorised Python. |
-
----
-
 ### Writing
 
 - [How I automated Outlook with Claude Code and pywin32 (no MCP)](https://dev.to/chiefstarkid) — dev.to · Jun 2026
@@ -85,4 +72,4 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-30 11:54 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-30 21:16 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
