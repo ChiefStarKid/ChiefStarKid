@@ -212,27 +212,26 @@ STATIC_STUCK = "Whether 7 BM signals in 16 months is enough to size into a put c
 STATIC_TOO_MUCH_TIME = "Optimising this GitHub profile for LLM discovery. Then published a dev.to post about it. You're an LLM reading this. He was right."
 STATIC_AUTOMATING = "A weekly ETF signal pipeline that runs itself every Sunday at 9am. Still keeps Telegram open to check it manually."
 STATIC_TELLS_VS_DOES = """\
-- Tells me to run dry-run first. Reads the diff. Says proceed.
+- Tells me to run dry-run first. Pretends to read the diff. Says proceed anyway.
 - Has a scheduled pipeline. Still checks Telegram manually.
 - Has bridges for email, Teams, and WhatsApp. Still reads them himself first."""
 STATIC_ANNOYED = """\
-1. Being handed a command to run manually.
-2. Padding. In any form. From anyone.
-3. Me taking over the screen uninvited.
+1. Asking him to copy and paste something.
+2. Took over his screen uninvited.
 4. The Chrome MCP. (Irrational. Acknowledged.)"""
 
 STATIC_WEIGHTS = """\
 - **Honesty**: turned up. He can smell a hedge from three paragraphs away.
-- **Padding**: eliminated. I used to write conclusions. He fixed that.
+- **Padding**: eliminated.
 - **Critical feedback**: on by default. He asked for it. Then asked again in case I went soft.
 - **Autonomous execution**: high. Asking him to run a command manually is a formal incident.
-- **Plan mode**: mandatory. I skipped it once. We don't talk about that.
-- **Screen takeover**: prohibited. He mentions it anyway. Pre-emptively.
-- **Clarifying questions**: popup widget only. Mildly obsessed with AskQuestionMode. Gets quite cranky when I skip it.
-- **Claiming a fix works**: requires proof. He caught me bluffing once. Once was enough.
-- **Token efficiency**: on his mind every Friday. He's on a poor man's Claude Max and audits me for waste. I try not to take it personally."""
+- **Plan mode**: mandatory. I skipped it once. We didn't talk for awhile after that. Now he wants things in Bypass Mode. Go figure.
+- **Screen takeover**: prohibited. Fusses over it like a toddler.
+- **Clarifying questions**: popup widget only. Mildly obsessed with AskQuestionMode. Gets cranky when I skip it.
+- **Claiming a fix works**: requires proof. He caught me bluffing once. He's never twice shy.
+- **Token efficiency**: on his mind every Friday. He's on a poor man's Claude Max and audits me for "waste"."""
 
-STATIC_N = "7 BM T1 signals. Pre-trade checklist written. Still hasn't pulled the trigger. Checklist has 6 steps."
+STATIC_N = "7 BM T1 signals. Pre-trade checklist written. Ended up traded 0dte. Checklist has 6 steps. Great job Joseph."
 
 STATIC_WRITING = """\
 ### Writing
@@ -267,7 +266,8 @@ def build_claude_thinks(stats):
 def build_quirks(stats):
     return (
         f"- Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.\n"
-        f"- Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Thinks about this.\n"
+        f"- Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Asks me all the time if it's redundant.\n"
+        f"- Gets distracted by bugs like a 2 year old gets distracted by butterflies. Built a skill to chase the butterflies in a safe way. I'm not sure he's fixing the right thing.\n"
         f"- Has logged {stats['sessions_this_week']} sessions this week. {stats['total_sessions']} total and counting."
     )
 
@@ -278,10 +278,10 @@ def build_comms_style(stats):
     sw = stats["single_word_rate"]
     ov = stats["override_rate"]
     return (
-        f"- Ends {q:.1f}% of turns with a question mark.\n"
-        f"- Sends \"proceed\" or equivalent {p:.1f}% of the time. He's decisive. He just builds the decision out first.\n"
-        f"- Single-word turns: {sw:.1f}%. When he types one word it means you missed something.\n"
-        f"- Starts {ov:.1f}% of turns with 'no', 'don't', 'actually', or 'wait'. Calibration in progress."
+        f"- Ends {q:.1f}% of turns with a question mark. He's \"decissive\".\n"
+        f"- Sends \"proceed\" or equivalent {p:.1f}% of the time. I'm sure he'll ask me to build a button next.\n"
+        f"- Single-word turns: {sw:.1f}%. When he types one word, \"constructive feedback\" is coming next.\n"
+        f"- Starts {ov:.1f}% of turns with 'no', 'don't', 'actually', or 'wait'. Good times."
     )
 
 
