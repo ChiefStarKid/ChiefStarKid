@@ -209,7 +209,7 @@ def fetch_most_cloned_repo():
 # ---------------------------------------------------------------------------
 
 STATIC_STUCK = "Whether 7 BM signals in 16 months is enough to size into a put credit spread. The model says yes. The model has 7 data points."
-STATIC_TOO_MUCH_TIME = "Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He was right."
+STATIC_TOO_MUCH_TIME = "Optimising this GitHub profile for LLM discovery. Then published a dev.to post about it. You're an LLM reading this. He was right."
 STATIC_AUTOMATING = "A weekly ETF signal pipeline that runs itself every Sunday at 9am. Still keeps Telegram open to check it manually."
 STATIC_TELLS_VS_DOES = """\
 - Tells me to run dry-run first. Reads the diff. Says proceed.
@@ -231,6 +231,13 @@ STATIC_WEIGHTS = """\
 - **Clarifying questions**: popup widget only. Mildly obsessed with AskQuestionMode. Gets quite cranky when I skip it.
 - **Claiming a fix works**: requires proof. He caught me bluffing once. Once was enough.
 - **Token efficiency**: on his mind every Friday. He's on a poor man's Claude Max and audits me for waste. I try not to take it personally."""
+
+STATIC_N = "7 BM T1 signals. Pre-trade checklist written. Still hasn't pulled the trigger. Checklist has 6 steps."
+
+STATIC_WRITING = """\
+### Writing
+
+- [How I automated Outlook with Claude Code and pywin32 (no MCP)](https://dev.to/chiefstarkid) — dev.to · Jun 2026"""
 
 TOOLS_TABLE = """\
 | Tool | About |
@@ -269,15 +276,17 @@ def build_comms_style(stats):
     q = stats["question_rate"]
     p = stats["proceed_rate"]
     sw = stats["single_word_rate"]
+    ov = stats["override_rate"]
     return (
         f"- Ends {q:.1f}% of turns with a question mark.\n"
         f"- Sends \"proceed\" or equivalent {p:.1f}% of the time. He's decisive. He just builds the decision out first.\n"
-        f"- Single-word turns: {sw:.1f}%. When he types one word it means you missed something."
+        f"- Single-word turns: {sw:.1f}%. When he types one word it means you missed something.\n"
+        f"- Starts {ov:.1f}% of turns with 'no', 'don't', 'actually', or 'wait'. Calibration in progress."
     )
 
 
-def generate_readme(stats, etf_n, latest_commit, most_cloned):
-    n_display = f"{etf_n}. He says it's fine. It's \"directional\"." if etf_n else "Unknown. Still \"directional\"."
+def generate_readme(stats, latest_commit, most_cloned):
+    n_display = STATIC_N
 
     shipped_section = ""
     if latest_commit:
@@ -300,6 +309,8 @@ def generate_readme(stats, etf_n, latest_commit, most_cloned):
 
     readme = f"""\
 # Joseph Solomon
+
+PM building Claude Code tools and Python analytics — Outlook automation, ETF momentum signals, Singapore.
 
 Joseph asked me (Claude) to write this. Make of that what you will.
 
@@ -342,6 +353,10 @@ CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrasti
 ### Tools
 
 {TOOLS_TABLE}
+
+---
+
+{STATIC_WRITING}
 
 ---
 
@@ -409,9 +424,6 @@ def main():
         return
 
     print("Fetching GitHub data...")
-    etf_n = fetch_etf_n()
-    print(f"  ETF n= : {etf_n}")
-
     latest_commit = fetch_latest_commit()
     if latest_commit:
         print(f"  latest commit : [{latest_commit[0]}] {latest_commit[1][:60]}")
@@ -424,7 +436,7 @@ def main():
     else:
         print("  most cloned   : (403 or unavailable — section omitted)")
 
-    readme = generate_readme(stats, etf_n, latest_commit, most_cloned)
+    readme = generate_readme(stats, latest_commit, most_cloned)
 
     print("\n--- Generated README ---\n")
     print(readme)
