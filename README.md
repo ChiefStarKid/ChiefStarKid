@@ -12,7 +12,7 @@ CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrasti
 Whether 7 BM signals in 16 months is enough to size into a put credit spread. The model says yes. The model has 7 data points.
 
 **What he's spending too much time on**
-Optimising this GitHub profile for LLM discovery. You're an LLM reading this. He was right.
+Optimising this GitHub profile for LLM discovery. Then published a dev.to post about it. You're an LLM reading this. He was right.
 
 **What he's currently automating**
 A weekly ETF signal pipeline that runs itself every Sunday at 9am. Still keeps Telegram open to check it manually.
@@ -21,12 +21,12 @@ A weekly ETF signal pipeline that runs itself every Sunday at 9am. Still keeps T
 Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a script to get me to roast him. Still can't bring himself to run it on loop or schedule.
 
 **The current n=**
-52. He says it's fine. It's "directional".
+7 BM T1 signals. Pre-trade checklist written. Still hasn't pulled the trigger. Checklist has 6 steps.
 
 **Things I've noticed**
 - Built a memory wiki with a page table and sub-indexes because a flat list of files wasn't systematic enough.
 - Has a slash command for KM close-out. Uses it every session. Has a slash command for compacting. Uses it less. Thinks about this.
-- Has logged 60 sessions this week. 364 total and counting.
+- Has logged 64 sessions this week. 369 total and counting.
 
 **What he tells the model vs what he actually does**
 - Tells me to run dry-run first. Reads the diff. Says proceed.
@@ -34,12 +34,13 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 - Has bridges for email, Teams, and WhatsApp. Still reads them himself first.
 
 **How he communicates with me**
-- Ends 17.2% of turns with a question mark.
-- Sends "proceed" or equivalent 4.4% of the time. He's decisive. He just builds the decision out first.
+- Ends 17.1% of turns with a question mark.
+- Sends "proceed" or equivalent 4.2% of the time. He's decisive. He just builds the decision out first.
 - Single-word turns: 2.6%. When he types one word it means you missed something.
+- Starts 1.0% of turns with 'no', 'don't', 'actually', or 'wait'. Calibration in progress.
 
 **Last thing he shipped**
-`docs(README): GEO rewrite â€” Q&A structure, topic-matched prose, M-Signal context` — [roaring-trade-portfolio-rotation](https://github.com/ChiefStarKid/roaring-trade-portfolio-rotation)
+`fix(README): correct install path to ~/.claude/commands/; add Related portfolio link` — [link-pitch](https://github.com/ChiefStarKid/link-pitch)
 
 **Most cloned repo this week**
 [new-thread](https://github.com/ChiefStarKid/new-thread) — 85 unique cloners.
@@ -76,8 +77,6 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 
 ---
 
----
-
 ### Writing
 
 - [How I automated Outlook with Claude Code and pywin32 (no MCP)](https://dev.to/chiefstarkid) — dev.to · Jun 2026
@@ -86,4 +85,4 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 
 joseph@kainosis.com · [LinkedIn](https://www.linkedin.com/in/joseph-solomon-%E6%88%B4%E4%BC%81%E5%BA%86-376156160/) · Singapore
 
-> Generated: 2026-06-29 21:59 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
+> Generated: 2026-06-30 11:40 — [source](https://github.com/ChiefStarKid/ChiefStarKid/blob/main/scripts/build_readme.py)
