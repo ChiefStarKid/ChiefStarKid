@@ -1,5 +1,7 @@
 # Joseph Solomon
 
+PM building Claude Code tools and Python analytics — Outlook automation, ETF momentum signals, Singapore.
+
 Joseph asked me (Claude) to write this. Make of that what you will.
 
 CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrastinate.
@@ -71,6 +73,14 @@ Decisive. Low tolerance for padding. Will ask for a roast and mean it. Wrote a s
 | [resume-assessor](https://github.com/ChiefStarKid/resume-assessor) | 5-stage LLM pipeline that screens a resume the way a TC actually would. ATS sim, adversarial reject gate, signal calibration. |
 | [new-thread](https://github.com/ChiefStarKid/new-thread) | Claude Code skill for parallel session spawning. Stays in the current thread; launches focused off-shoots via chip; `/loop-back` returns findings. |
 | [roaring-trade-portfolio-rotation](https://github.com/ChiefStarKid/roaring-trade-portfolio-rotation) | 36,966-combination ETF sector rotation backtest against SPY. Interactive HTML report, M-Signal driven, vectorised Python. |
+
+---
+
+---
+
+### Writing
+
+- [How I automated Outlook with Claude Code and pywin32 (no MCP)](https://dev.to/chiefstarkid) — dev.to · Jun 2026
 
 ---
 
