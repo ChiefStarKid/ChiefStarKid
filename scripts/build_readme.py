@@ -238,16 +238,6 @@ STATIC_WRITING = """\
 
 - [How I automated Outlook with Claude Code and pywin32 (no MCP)](https://dev.to/chiefstarkid) — dev.to · Jun 2026"""
 
-TOOLS_TABLE = """\
-| Tool | About |
-|---|---|
-| [claude-outlook-bridge](https://github.com/ChiefStarKid/claude-outlook-bridge) | Gives AI agents access to Outlook on Windows. No OAuth. No excuses. |
-| [etf-momentum-analytics](https://github.com/ChiefStarKid/etf-momentum-analytics) | BE/TE/BM exhaustion signals on weekly ETF momentum. v10.2 live. 7 PCS signals across 16 months of history. |
-| [link-pitch](https://github.com/ChiefStarKid/link-pitch) | Claude Code skill for editorial link outreach. 9 variations, 1 contact gate, 0 grovelling. |
-| [resume-assessor](https://github.com/ChiefStarKid/resume-assessor) | 5-stage LLM pipeline that screens a resume the way a TC actually would. ATS sim, adversarial reject gate, signal calibration. |
-| [new-thread](https://github.com/ChiefStarKid/new-thread) | Claude Code skill for parallel session spawning. Stays in the current thread; launches focused off-shoots via chip; `/loop-back` returns findings. |
-| [roaring-trade-portfolio-rotation](https://github.com/ChiefStarKid/roaring-trade-portfolio-rotation) | 36,966-combination ETF sector rotation backtest against SPY. Interactive HTML report, M-Signal driven, vectorised Python. |"""
-
 
 def build_claude_thinks(stats):
     lines = [
@@ -347,12 +337,6 @@ CSM, Enterprise SaaS. Occasional quant. Reluctant GEO. Builds tools to procrasti
 
 **Top things I've annoyed him with**
 {STATIC_ANNOYED}
-
----
-
-### Tools
-
-{TOOLS_TABLE}
 
 ---
 
